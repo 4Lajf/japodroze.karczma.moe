@@ -1,0 +1,21 @@
+{
+  "name": "japan-travel-compendium",
+  "version": "1.0.0",
+  "description": "Process JSON chat logs into a Markdown compendium using Gemini API",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "slim": "node slim-json-exports.js",
+    "structure": "node structure-compendium-topics.js",
+    "rate": "node rate-entries.js"
+  },
+  "dependencies": {
+    "@google/generative-ai": "^0.21.0",
+    "dotenv": "^16.4.5",
+    "glob": "^10.3.10",
+    "fs-extra": "^11.2.0"
+  },
+  "author": "",
+  "license": "ISC"
+}
